@@ -1,0 +1,15 @@
+# Starter limits. Change numbers here; phase 0 does not place orders.
+# Percent fields are percent of paper equity at the session open (0.5 means 0.5%).
+loss_per_trade_percent: 0.5
+equity_notional_percent: 2
+long_option_premium_percent: 0.5
+daily_loss_percent: 2
+max_open_positions: 5
+max_new_orders_per_session: 10
+option_contracts_per_order: 1
+option_contracts_ceiling: 5
+ticker_pause_minutes: 30
+decision_ttl_minutes: 15
+equity_limit_from_mid_percent: 1
+option_limit_from_mid_percent: 5
+max_grok_calls_per_session: 30
