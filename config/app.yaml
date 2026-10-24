@@ -1,0 +1,5 @@
+# Phase 0 defaults. The process refuses to start unless mode is paper
+# and host is api.sandbox.webull.com. Live trading is not implemented.
+mode: paper
+region: us
+host: api.sandbox.webull.com
